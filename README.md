@@ -5,7 +5,8 @@ PRE-REQUIS:
 - Visual code ou IDE php 
 
 0)configurer la base de donnee en modifiant le fichier ".env"
-  changer "ROOT" par votre propre utilisateur  et ajouter votre mot de passe si il y en a.
+  DATABASE_URL="mysql://root:@127.0.0.1:3306/blog_maasil?serverVersion=5.7"
+ => changer "root" par votre propre utilisateur  et ajouter votre mot de passe si il y en a , ou si non laisse le par DEFAUT
 
 1)Creez une base de donnee en tapant juste dans la console :
   php bin/console doctrine:database:create
